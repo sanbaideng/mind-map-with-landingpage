@@ -25,7 +25,7 @@ export function Hero() {
       </p>
       
       <div className="mt-10 flex justify-center gap-x-6">
-        <Button href="#">{t('getStarted')}</Button>
+        <Button href="/mind-map">{t('tryMindMap')}</Button>
         <Button href="#" variant="outline">
           {t('learnMore')}
         </Button>

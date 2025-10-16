@@ -1,0 +1,20 @@
+{
+  "common": {
+    "title": "随机团队生成器",
+    "description": "轻松生成随机团队",
+    "features": "功能",
+    "pricing": "价格",
+    "testimonials": "评价",
+    "language": "语言"
+  },
+  "randomPicker": {
+    "title": "随机选择器",
+    "description": "从列表中随机选择项目",
+    "addItem": "添加项目",
+    "removeItem": "删除",
+    "pickRandom": "随机选择",
+    "reset": "重置",
+    "result": "结果",
+    "noItems": "还没有添加项目"
+  }
+}

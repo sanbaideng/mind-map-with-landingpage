@@ -11,6 +11,7 @@
     "heroTitle": "欢迎来到您的网站",
     "heroSubtitle": "这是一个带有 Next.js、i18n 支持和 TailwindCSS 的模板。在 src/messages/zh.json 中自定义此内容",
     "getStarted": "开始使用",
-    "learnMore": "了解更多"
+    "learnMore": "了解更多",
+    "tryMindMap": "试用思维导图"
   }
 }

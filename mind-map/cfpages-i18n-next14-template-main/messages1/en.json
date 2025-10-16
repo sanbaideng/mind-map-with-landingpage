@@ -1,0 +1,20 @@
+{
+  "common": {
+    "title": "Random Team Generator",
+    "description": "Generate random teams easily",
+    "features": "Features",
+    "pricing": "Pricing",
+    "testimonials": "Testimonials",
+    "language": "Language"
+  },
+  "randomPicker": {
+    "title": "Random Picker",
+    "description": "Pick random items from a list",
+    "addItem": "Add Item",
+    "removeItem": "Remove",
+    "pickRandom": "Pick Random",
+    "reset": "Reset",
+    "result": "Result",
+    "noItems": "No items added yet"
+  }
+}
