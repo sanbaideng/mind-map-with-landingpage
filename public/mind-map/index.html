@@ -1,4 +1,40 @@
-<!DOCTYPE html><html lang=""><head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1,maximum-scale=1,minimum-scale=1"><link rel="icon" href="/mind-map/logo.ico"><title>思绪思维导图</title><script>// 自定义静态资源的路径
+<!DOCTYPE html><html lang=""><head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1,maximum-scale=1,minimum-scale=1"><link rel="icon" href="/mind-map/logo.ico"><title>思绪思维导图</title><style>
+/* Hide download tip dialog */
+.el-message-box:has([data-task-checked]) {
+  display: none !important;
+}
+.el-message-box-wrapper {
+  display: none !important;
+}
+/* Move language selector to be near import/export */
+.navigatorContainer {
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: center !important;
+}
+.navigatorContainer .item:first-child {
+  order: 3 !important;
+  margin-left: auto !important;
+  margin-right: 10px !important;
+}
+/* Style language selector */
+.navigatorContainer .item:first-child .el-select {
+  width: 140px !important;
+}
+/* Add flag icons before language options */
+.el-select-dropdown__item[label*="English"]::before {
+  content: "🇺🇸 ";
+}
+.el-select-dropdown__item[label="中文"]::before {
+  content: "🇨🇳 ";
+}
+.el-select-dropdown__item[label="繁體中文"]::before {
+  content: "🇹🇼 ";
+}
+.el-select-dropdown__item[label="Tiếng Việt"]::before {
+  content: "🇻🇳 ";
+}
+</style><script>// 自定义静态资源的路径
       window.externalPublicPath = '/mind-map/'
       // 接管应用
       window.takeOverApp = false</script><script charset="UTF-8" id="LA_COLLECT" src="//sdk.51.la/js-sdk-pro.min.js"></script><script>try {
@@ -85,6 +121,14 @@
         window.initApp()
       }
       
+      // 设置默认语言为英语
+      window.addEventListener('DOMContentLoaded', () => {
+        const savedLang = localStorage.getItem('SIMPLE_MIND_MAP_LANG')
+        if (!savedLang) {
+          localStorage.setItem('SIMPLE_MIND_MAP_LANG', 'en')
+        }
+      })
+      
       // 监听来自父窗口的语言切换消息
       window.addEventListener('message', (event) => {
         if (event.data.type === 'setLanguage' && event.data.lang) {
@@ -100,15 +144,4 @@
             console.error('Failed to update language:', error)
           }
         }
-      })
-      
-      // 隐藏语言选择器
-      window.addEventListener('DOMContentLoaded', () => {
-        const style = document.createElement('style')
-        style.textContent = `
-          .navigatorContainer .item:first-child {
-            display: none !important;
-          }
-        `
-        document.head.appendChild(style)
       })</script><script src="/mind-map/js/chunk-vendors.js?227f61428db154a5d9bc"></script><script src="/mind-map/js/app.js?227f61428db154a5d9bc"></script></body></html>
