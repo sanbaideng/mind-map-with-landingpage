@@ -8,10 +8,150 @@
     "language": "Language"
   },
   "homepage": {
-    "heroTitle": "Welcome to Your Site",
-    "heroSubtitle": "This is a template with Next.js, i18n support, and TailwindCSS. Customize this content in src/messages/en.json",
+    "heroTitle": "Mind Map Online: Create, Collaborate & Visualize Ideas Instantly",
+    "heroSubtitle": "Free online mind mapping tool with real-time collaboration, unlimited maps, and powerful export options. No signup required to start.",
     "getStarted": "Get Started",
     "learnMore": "Learn More",
-    "tryMindMap": "Try Mind Map"
+    "tryMindMap": "Start Free Mind Map",
+    "trustedBy": "Trusted by educators, teams, and creators worldwide",
+    
+    "painPoints": {
+      "title": "Why Traditional Brainstorming Falls Short",
+      "subtitle": "Common challenges when organizing ideas and collaborating with teams",
+      "slow": {
+        "title": "Slow Idea Capture",
+        "description": "Paper notes get lost, text documents become messy, and ideas slip away before you can organize them."
+      },
+      "noCollaboration": {
+        "title": "Difficult Team Collaboration",
+        "description": "Emailing files back and forth, version conflicts, and no way to see who changed what in real-time."
+      },
+      "limitedExport": {
+        "title": "Limited Sharing Options",
+        "description": "Can't easily present your ideas or export to formats your team needs like PDF, PowerPoint, or images."
+      },
+      "complexity": {
+        "title": "Complex Tools",
+        "description": "Enterprise software requires training, expensive licenses, and IT setup before your team can start mapping."
+      }
+    },
+    
+    "features": {
+      "title": "Powerful Features That Solve Real Problems",
+      "subtitle": "Everything you need for effective mind mapping, built for speed and collaboration",
+      "instantStart": {
+        "title": "Instant Start - No Signup",
+        "description": "Start creating mind maps immediately. No registration barriers, no credit card required. Save your work locally or create an account later."
+      },
+      "realTimeCollab": {
+        "title": "Real-Time Collaboration",
+        "description": "Work together with your team simultaneously. See cursors, changes, and updates instantly. Perfect for remote teams and classrooms."
+      },
+      "unlimitedMaps": {
+        "title": "Unlimited Maps & Nodes",
+        "description": "Create as many mind maps as you need with unlimited branches, images, attachments, and formatting options. No artificial limits."
+      },
+      "richFormatting": {
+        "title": "Rich Text & Media",
+        "description": "Add images, icons, notes, links, and formulas. Style nodes with colors, shapes, and custom themes to match your brand."
+      },
+      "powerfulExport": {
+        "title": "Export Anywhere",
+        "description": "Export to PDF, PNG, SVG, PowerPoint, XMind, Markdown, or JSON. Present directly or share in any format your team needs."
+      },
+      "templates": {
+        "title": "Ready-to-Use Templates",
+        "description": "Start faster with templates for project planning, education, brainstorming, UX flows, and more. Customize to fit your needs."
+      },
+      "keyboardShortcuts": {
+        "title": "Keyboard Shortcuts",
+        "description": "Power users love our comprehensive keyboard shortcuts. Create, navigate, and edit at the speed of thought."
+      },
+      "cloudSync": {
+        "title": "Cloud Storage & Sync",
+        "description": "Access your mind maps from any device. Auto-save ensures you never lose work. Works offline with sync when you're back online."
+      }
+    },
+    
+    "useCases": {
+      "title": "Perfect For Every Use Case",
+      "subtitle": "From education to enterprise, see how teams use mind maps to think better",
+      "education": {
+        "title": "Education & Learning",
+        "description": "Teachers create lesson plans and students organize study notes. Perfect for brainstorming, summarizing lectures, and exam preparation.",
+        "examples": "Lesson planning, Study notes, Concept mapping, Research organization"
+      },
+      "projectManagement": {
+        "title": "Project Planning",
+        "description": "Break down complex projects into tasks, visualize roadmaps, and track milestones. Ideal for agile planning and sprint organization.",
+        "examples": "Roadmaps, Sprint planning, Task breakdown, Resource allocation"
+      },
+      "business": {
+        "title": "Business Strategy",
+        "description": "Map business models, plan marketing campaigns, and document processes. Visualize strategies and communicate vision to stakeholders.",
+        "examples": "Business model canvas, Marketing plans, SWOT analysis, Process mapping"
+      },
+      "creative": {
+        "title": "Creative Work",
+        "description": "Writers outline stories, designers map user flows, and content creators plan editorial calendars. Organize creative chaos visually.",
+        "examples": "Story outlines, User flows, Content calendars, Storyboarding"
+      }
+    },
+    
+    "comparison": {
+      "title": "Why Choose Our Mind Map Tool?",
+      "subtitle": "Compare us with other popular mind mapping tools",
+      "free": "Free Forever",
+      "noSignup": "No Signup Required",
+      "unlimited": "Unlimited Maps",
+      "realTime": "Real-Time Collaboration",
+      "export": "Multiple Export Formats",
+      "templates": "Free Templates",
+      "offline": "Offline Support",
+      "openSource": "Open Source"
+    },
+    
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "q1": {
+        "question": "What is mind mapping?",
+        "answer": "Mind mapping is a visual thinking technique that helps organize information, brainstorm ideas, and see connections between concepts. It uses a central topic with branches for related ideas, making it easier to understand complex subjects and remember information."
+      },
+      "q2": {
+        "question": "Is this mind map tool really free?",
+        "answer": "Yes! Our core mind mapping features are completely free with no time limits. You can create unlimited mind maps, collaborate in real-time, and export to multiple formats without paying anything. We believe everyone should have access to powerful thinking tools."
+      },
+      "q3": {
+        "question": "Do I need to create an account?",
+        "answer": "No account is required to start creating mind maps. Your maps are saved locally in your browser. If you want to access your maps across devices or collaborate with others, you can optionally create a free account."
+      },
+      "q4": {
+        "question": "Can I collaborate with my team in real-time?",
+        "answer": "Absolutely! Share a link with your team and everyone can edit the mind map simultaneously. You'll see each other's cursors and changes in real-time, just like Google Docs. Perfect for brainstorming sessions and remote collaboration."
+      },
+      "q5": {
+        "question": "What export formats are supported?",
+        "answer": "You can export your mind maps to PDF, PNG, SVG, PowerPoint (PPTX), XMind, Markdown, and JSON formats. This makes it easy to share your work, create presentations, or import into other tools."
+      },
+      "q6": {
+        "question": "Is my data secure?",
+        "answer": "Yes. Your mind maps are stored securely and only accessible to you and people you explicitly share with. We use industry-standard encryption and never sell your data. You can also export your maps and delete your account anytime."
+      },
+      "q7": {
+        "question": "Can I use it offline?",
+        "answer": "Yes! Once loaded, the mind map tool works offline. Your changes are saved locally and will sync automatically when you're back online. Perfect for working on flights or in areas with poor connectivity."
+      },
+      "q8": {
+        "question": "Which devices are supported?",
+        "answer": "Our mind map tool works on all modern browsers (Chrome, Firefox, Safari, Edge) on desktop, laptop, tablet, and mobile devices. The interface adapts to your screen size for the best experience."
+      }
+    },
+    
+    "cta": {
+      "title": "Start Mapping Your Ideas Today",
+      "subtitle": "Join thousands of users who organize their thoughts visually",
+      "button": "Create Your First Mind Map",
+      "noCard": "No credit card required"
+    }
   }
 }

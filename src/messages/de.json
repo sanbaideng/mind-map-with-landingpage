@@ -1,17 +1,157 @@
 {
   "navigation": {
-    "home": "Home"
+    "home": "Startseite"
   },
   "common": {
-    "title": "Your Site Title",
-    "description": "Your site description",
-    "language": "Language"
+    "title": "Ihr Seitentitel",
+    "description": "Ihre Seitenbeschreibung",
+    "language": "Sprache"
   },
   "homepage": {
-    "heroTitle": "Welcome to Your Site",
-    "heroSubtitle": "This is a template with Next.js, i18n support, and TailwindCSS. Customize this content in src/messages/en.json",
-    "getStarted": "Get Started",
-    "learnMore": "Learn More",
-    "tryMindMap": "Mind Map Ausprobieren"
+    "heroTitle": "Mind Map Online: Ideen sofort erstellen, kollaborieren und visualisieren",
+    "heroSubtitle": "Kostenloses Online-Mind-Map-Tool mit Echtzeit-Kollaboration, unbegrenzten Karten und leistungsstarken Exportoptionen. Keine Anmeldung erforderlich zum Starten.",
+    "getStarted": "Loslegen",
+    "learnMore": "Mehr erfahren",
+    "tryMindMap": "Kostenlose Mind Map starten",
+    "trustedBy": "Vertraut von Pädagogen, Teams und Kreativen weltweit",
+    
+    "painPoints": {
+      "title": "Warum traditionelles Brainstorming zu kurz greift",
+      "subtitle": "Häufige Herausforderungen beim Organisieren von Ideen und der Zusammenarbeit mit Teams",
+      "slow": {
+        "title": "Langsame Ideenerfassung",
+        "description": "Papiernotizen gehen verloren, Textdokumente werden unübersichtlich und Ideen verschwinden, bevor Sie sie organisieren können."
+      },
+      "noCollaboration": {
+        "title": "Schwierige Teamzusammenarbeit",
+        "description": "Dateien hin und her per E-Mail senden, Versionskonflikte und keine Möglichkeit zu sehen, wer was in Echtzeit geändert hat."
+      },
+      "limitedExport": {
+        "title": "Begrenzte Sharing-Optionen",
+        "description": "Können Ihre Ideen nicht einfach präsentieren oder in Formate exportieren, die Ihr Team benötigt wie PDF, PowerPoint oder Bilder."
+      },
+      "complexity": {
+        "title": "Komplexe Tools",
+        "description": "Unternehmenssoftware erfordert Schulungen, teure Lizenzen und IT-Setup, bevor Ihr Team mit dem Mapping beginnen kann."
+      }
+    },
+    
+    "features": {
+      "title": "Leistungsstarke Funktionen, die echte Probleme lösen",
+      "subtitle": "Alles was Sie für effektives Mind Mapping brauchen, entwickelt für Geschwindigkeit und Kollaboration",
+      "instantStart": {
+        "title": "Sofortiger Start - Keine Anmeldung",
+        "description": "Beginnen Sie sofort mit der Erstellung von Mind Maps. Keine Anmeldehürden, keine Kreditkarte erforderlich. Speichern Sie Ihre Arbeit lokal oder erstellen Sie später ein Konto."
+      },
+      "realTimeCollab": {
+        "title": "Echtzeit-Kollaboration",
+        "description": "Arbeiten Sie gleichzeitig mit Ihrem Team zusammen. Sehen Sie Cursor, Änderungen und Updates sofort. Perfekt für Remote-Teams und Klassenzimmer."
+      },
+      "unlimitedMaps": {
+        "title": "Unbegrenzte Karten & Knoten",
+        "description": "Erstellen Sie so viele Mind Maps wie Sie benötigen mit unbegrenzten Ästen, Bildern, Anhängen und Formatierungsoptionen. Keine künstlichen Grenzen."
+      },
+      "richFormatting": {
+        "title": "Rich Text & Medien",
+        "description": "Fügen Sie Bilder, Symbole, Notizen, Links und Formeln hinzu. Gestalten Sie Knoten mit Farben, Formen und benutzerdefinierten Themes passend zu Ihrer Marke."
+      },
+      "powerfulExport": {
+        "title": "Überall exportieren",
+        "description": "Exportieren Sie nach PDF, PNG, SVG, PowerPoint, XMind, Markdown oder JSON. Präsentieren Sie direkt oder teilen Sie in jedem Format, das Ihr Team benötigt."
+      },
+      "templates": {
+        "title": "Gebrauchsfertige Vorlagen",
+        "description": "Starten Sie schneller mit Vorlagen für Projektplanung, Bildung, Brainstorming, UX-Flows und mehr. Passen Sie sie an Ihre Bedürfnisse an."
+      },
+      "keyboardShortcuts": {
+        "title": "Tastenkürzel",
+        "description": "Power-User lieben unsere umfassenden Tastenkürzel. Erstellen, navigieren und bearbeiten Sie in Denkgeschwindigkeit."
+      },
+      "cloudSync": {
+        "title": "Cloud-Speicher & Sync",
+        "description": "Greifen Sie von jedem Gerät auf Ihre Mind Maps zu. Auto-Speichern stellt sicher, dass Sie nie Arbeit verlieren. Funktioniert offline mit Sync wenn Sie wieder online sind."
+      }
+    },
+    
+    "useCases": {
+      "title": "Perfekt für jeden Anwendungsfall",
+      "subtitle": "Von Bildung bis Unternehmen, sehen Sie wie Teams Mind Maps nutzen um besser zu denken",
+      "education": {
+        "title": "Bildung & Lernen",
+        "description": "Lehrer erstellen Unterrichtspläne und Schüler organisieren Lernnotizen. Perfekt für Brainstorming, Zusammenfassung von Vorlesungen und Prüfungsvorbereitung.",
+        "examples": "Unterrichtsplanung, Lernnotizen, Concept Mapping, Forschungsorganisation"
+      },
+      "projectManagement": {
+        "title": "Projektplanung",
+        "description": "Zerlegen Sie komplexe Projekte in Aufgaben, visualisieren Sie Roadmaps und verfolgen Sie Meilensteine. Ideal für agile Planung und Sprint-Organisation.",
+        "examples": "Roadmaps, Sprint-Planung, Aufgabenaufteilung, Ressourcenzuteilung"
+      },
+      "business": {
+        "title": "Geschäftsstrategie",
+        "description": "Erstellen Sie Geschäftsmodelle, planen Sie Marketingkampagnen und dokumentieren Sie Prozesse. Visualisieren Sie Strategien und kommunizieren Sie Vision an Stakeholder.",
+        "examples": "Business Model Canvas, Marketingpläne, SWOT-Analyse, Prozessmapping"
+      },
+      "creative": {
+        "title": "Kreative Arbeit",
+        "description": "Autoren skizzieren Geschichten, Designer erstellen User Flows und Content-Ersteller planen Redaktionskalender. Organisieren Sie kreatives Chaos visuell.",
+        "examples": "Geschichtsskizzen, User Flows, Content-Kalender, Storyboarding"
+      }
+    },
+    
+    "comparison": {
+      "title": "Warum unser Mind Map Tool wählen?",
+      "subtitle": "Vergleichen Sie uns mit anderen beliebten Mind Mapping Tools",
+      "free": "Für immer kostenlos",
+      "noSignup": "Keine Anmeldung erforderlich",
+      "unlimited": "Unbegrenzte Karten",
+      "realTime": "Echtzeit-Kollaboration",
+      "export": "Mehrere Exportformate",
+      "templates": "Kostenlose Vorlagen",
+      "offline": "Offline-Unterstützung",
+      "openSource": "Open Source"
+    },
+    
+    "faq": {
+      "title": "Häufig gestellte Fragen",
+      "q1": {
+        "question": "Was ist Mind Mapping?",
+        "answer": "Mind Mapping ist eine visuelle Denktechnik, die hilft Informationen zu organisieren, Ideen zu brainstormen und Verbindungen zwischen Konzepten zu sehen. Es verwendet ein zentrales Thema mit Ästen für verwandte Ideen, was es einfacher macht komplexe Themen zu verstehen und Informationen zu merken."
+      },
+      "q2": {
+        "question": "Ist dieses Mind Map Tool wirklich kostenlos?",
+        "answer": "Ja! Unsere Kern-Mind-Mapping-Funktionen sind völlig kostenlos ohne Zeitlimits. Sie können unbegrenzte Mind Maps erstellen, in Echtzeit kollaborieren und in mehrere Formate exportieren ohne etwas zu bezahlen. Wir glauben jeder sollte Zugang zu mächtigen Denkwerkzeugen haben."
+      },
+      "q3": {
+        "question": "Muss ich ein Konto erstellen?",
+        "answer": "Kein Konto ist erforderlich um mit der Erstellung von Mind Maps zu beginnen. Ihre Karten werden lokal in Ihrem Browser gespeichert. Wenn Sie Ihre Karten geräteübergreifend zugreifen oder mit anderen kollaborieren möchten, können Sie optional ein kostenloses Konto erstellen."
+      },
+      "q4": {
+        "question": "Kann ich mit meinem Team in Echtzeit kollaborieren?",
+        "answer": "Absolut! Teilen Sie einen Link mit Ihrem Team und jeder kann die Mind Map gleichzeitig bearbeiten. Sie sehen die Cursor und Änderungen der anderen in Echtzeit, genau wie Google Docs. Perfekt für Brainstorming-Sessions und Remote-Kollaboration."
+      },
+      "q5": {
+        "question": "Welche Exportformate werden unterstützt?",
+        "answer": "Sie können Ihre Mind Maps in PDF, PNG, SVG, PowerPoint (PPTX), XMind, Markdown und JSON Formate exportieren. Das macht es einfach Ihre Arbeit zu teilen, Präsentationen zu erstellen oder in andere Tools zu importieren."
+      },
+      "q6": {
+        "question": "Sind meine Daten sicher?",
+        "answer": "Ja. Ihre Mind Maps werden sicher gespeichert und sind nur für Sie und Personen zugänglich, mit denen Sie explizit teilen. Wir verwenden branchenübliche Verschlüsselung und verkaufen niemals Ihre Daten. Sie können auch jederzeit Ihre Karten exportieren und Ihr Konto löschen."
+      },
+      "q7": {
+        "question": "Kann ich es offline verwenden?",
+        "answer": "Ja! Einmal geladen funktioniert das Mind Map Tool offline. Ihre Änderungen werden lokal gespeichert und synchronisieren automatisch wenn Sie wieder online sind. Perfekt für die Arbeit in Flugzeugen oder Gebieten mit schlechter Verbindung."
+      },
+      "q8": {
+        "question": "Welche Geräte werden unterstützt?",
+        "answer": "Unser Mind Map Tool funktioniert auf allen modernen Browsern (Chrome, Firefox, Safari, Edge) auf Desktop, Laptop, Tablet und mobilen Geräten. Die Benutzeroberfläche passt sich Ihrer Bildschirmgröße für die beste Erfahrung an."
+      }
+    },
+    
+    "cta": {
+      "title": "Beginnen Sie heute mit dem Mapping Ihrer Ideen",
+      "subtitle": "Treten Sie Tausenden von Nutzern bei, die ihre Gedanken visuell organisieren",
+      "button": "Erstellen Sie Ihre erste Mind Map",
+      "noCard": "Keine Kreditkarte erforderlich"
+    }
   }
 }

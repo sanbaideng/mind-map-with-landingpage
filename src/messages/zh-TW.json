@@ -1,17 +1,157 @@
 {
   "navigation": {
-    "home": "Home"
+    "home": "首頁"
   },
   "common": {
-    "title": "Your Site Title",
-    "description": "Your site description",
-    "language": "Language"
+    "title": "您的網站標題",
+    "description": "您的網站描述",
+    "language": "語言"
   },
   "homepage": {
-    "heroTitle": "Welcome to Your Site",
-    "heroSubtitle": "This is a template with Next.js, i18n support, and TailwindCSS. Customize this content in src/messages/en.json",
-    "getStarted": "Get Started",
-    "learnMore": "Learn More",
-    "tryMindMap": "試用思維導圖"
+    "heroTitle": "線上心智圖：即時創建、協作與視覺化想法",
+    "heroSubtitle": "免費線上心智圖工具，支援即時協作、無限地圖和強大匯出選項。開始使用無需註冊。",
+    "getStarted": "開始使用",
+    "learnMore": "了解更多",
+    "tryMindMap": "開始免費心智圖",
+    "trustedBy": "受到全球教育工作者、團隊和創作者的信賴",
+    
+    "painPoints": {
+      "title": "傳統腦力激盪的不足之處",
+      "subtitle": "整理想法和團隊協作時的常見挑戰",
+      "slow": {
+        "title": "想法捕捉速度慢",
+        "description": "紙質筆記容易遺失，文字文件變得雜亂，想法在您整理之前就消失了。"
+      },
+      "noCollaboration": {
+        "title": "團隊協作困難",
+        "description": "來回透過電子郵件傳送檔案，版本衝突，無法即時查看誰更改了什麼。"
+      },
+      "limitedExport": {
+        "title": "分享選項有限",
+        "description": "無法輕鬆展示您的想法或匯出為團隊需要的格式，如PDF、PowerPoint或圖片。"
+      },
+      "complexity": {
+        "title": "工具複雜",
+        "description": "企業軟體需要培訓、昂貴的授權和IT設定，團隊才能開始製作心智圖。"
+      }
+    },
+    
+    "features": {
+      "title": "解決實際問題的強大功能",
+      "subtitle": "有效心智圖製作所需的一切，專為速度和協作而設計",
+      "instantStart": {
+        "title": "即時開始 - 無需註冊",
+        "description": "立即開始創建心智圖。無需註冊障礙，無需信用卡。本地儲存工作或稍後創建帳戶。"
+      },
+      "realTimeCollab": {
+        "title": "即時協作",
+        "description": "與團隊同時工作。即時查看游標、更改和更新。非常適合遠端團隊和課堂。"
+      },
+      "unlimitedMaps": {
+        "title": "無限心智圖和節點",
+        "description": "創建所需數量的心智圖，具有無限分支、圖片、附件和格式選項。沒有人為限制。"
+      },
+      "richFormatting": {
+        "title": "豐富文字和媒體",
+        "description": "添加圖片、圖示、筆記、連結和公式。使用色彩、形狀和自訂主題為節點設定樣式以符合您的品牌。"
+      },
+      "powerfulExport": {
+        "title": "匯出到任何地方",
+        "description": "匯出為PDF、PNG、SVG、PowerPoint、XMind、Markdown或JSON。直接簡報或以團隊需要的任何格式分享。"
+      },
+      "templates": {
+        "title": "即用型範本",
+        "description": "使用專案規劃、教育、腦力激盪、UX流程等範本更快開始。自訂以滿足您的需求。"
+      },
+      "keyboardShortcuts": {
+        "title": "鍵盤快捷鍵",
+        "description": "進階用戶喜愛我們全面的鍵盤快捷鍵。以思考的速度創建、導覽和編輯。"
+      },
+      "cloudSync": {
+        "title": "雲端儲存和同步",
+        "description": "從任何裝置存取您的心智圖。自動儲存確保您永遠不會失去工作。離線工作，重新上線時同步。"
+      }
+    },
+    
+    "useCases": {
+      "title": "適用於每個使用情境",
+      "subtitle": "從教育到企業，看看團隊如何使用心智圖更好地思考",
+      "education": {
+        "title": "教育和學習",
+        "description": "教師創建課程計畫，學生整理學習筆記。非常適合腦力激盪、總結講座和考試準備。",
+        "examples": "課程規劃、學習筆記、概念圖、研究整理"
+      },
+      "projectManagement": {
+        "title": "專案規劃",
+        "description": "將複雜專案分解為任務，視覺化路線圖並追蹤里程碑。非常適合敏捷規劃和衝刺組織。",
+        "examples": "路線圖、衝刺規劃、任務分解、資源分配"
+      },
+      "business": {
+        "title": "商業策略",
+        "description": "繪製商業模式、規劃行銷活動和記錄流程。視覺化策略並向利害關係人傳達願景。",
+        "examples": "商業模式畫布、行銷計畫、SWOT分析、流程圖"
+      },
+      "creative": {
+        "title": "創意工作",
+        "description": "作家勾勒故事大綱，設計師繪製使用者流程，內容創作者規劃編輯行事曆。以視覺方式組織創意混亂。",
+        "examples": "故事大綱、使用者流程、內容行事曆、分鏡圖"
+      }
+    },
+    
+    "comparison": {
+      "title": "為什麼選擇我們的心智圖工具？",
+      "subtitle": "與其他熱門心智圖工具比較",
+      "free": "永久免費",
+      "noSignup": "無需註冊",
+      "unlimited": "無限心智圖",
+      "realTime": "即時協作",
+      "export": "多種匯出格式",
+      "templates": "免費範本",
+      "offline": "離線支援",
+      "openSource": "開放原始碼"
+    },
+    
+    "faq": {
+      "title": "常見問題",
+      "q1": {
+        "question": "什麼是心智圖？",
+        "answer": "心智圖是一種視覺思維技術，幫助組織資訊、腦力激盪想法並查看概念之間的聯繫。它使用中心主題和相關想法的分支，使其更容易理解複雜主題和記住資訊。"
+      },
+      "q2": {
+        "question": "這個心智圖工具真的免費嗎？",
+        "answer": "是的！我們的核心心智圖功能完全免費，沒有時間限制。您可以創建無限的心智圖，即時協作並匯出為多種格式，無需支付任何費用。我們相信每個人都應該能夠使用強大的思維工具。"
+      },
+      "q3": {
+        "question": "我需要創建帳戶嗎？",
+        "answer": "無需帳戶即可開始創建心智圖。您的心智圖儲存在瀏覽器本地。如果您想跨裝置存取心智圖或與他人協作，可以選擇創建免費帳戶。"
+      },
+      "q4": {
+        "question": "我可以與團隊即時協作嗎？",
+        "answer": "當然可以！與您的團隊分享連結，每個人都可以同時編輯心智圖。您將即時看到彼此的游標和更改，就像Google文件一樣。非常適合腦力激盪會議和遠端協作。"
+      },
+      "q5": {
+        "question": "支援哪些匯出格式？",
+        "answer": "您可以將心智圖匯出為PDF、PNG、SVG、PowerPoint（PPTX）、XMind、Markdown和JSON格式。這使得分享工作、創建簡報或匯入其他工具變得容易。"
+      },
+      "q6": {
+        "question": "我的資料安全嗎？",
+        "answer": "是的。您的心智圖安全儲存，只有您和您明確分享的人才能存取。我們使用業界標準加密，從不出售您的資料。您還可以隨時匯出心智圖並刪除帳戶。"
+      },
+      "q7": {
+        "question": "我可以離線使用嗎？",
+        "answer": "可以！載入後，心智圖工具可以離線工作。您的更改儲存在本地，重新上線時會自動同步。非常適合在飛機上或連線不佳的地區工作。"
+      },
+      "q8": {
+        "question": "支援哪些裝置？",
+        "answer": "我們的心智圖工具可在桌上型電腦、筆記型電腦、平板電腦和行動裝置的所有現代瀏覽器（Chrome、Firefox、Safari、Edge）上運作。介面會適應您的螢幕尺寸以獲得最佳體驗。"
+      }
+    },
+    
+    "cta": {
+      "title": "今天開始繪製您的想法",
+      "subtitle": "加入數千名以視覺方式組織思想的使用者",
+      "button": "創建您的第一個心智圖",
+      "noCard": "無需信用卡"
+    }
   }
 }

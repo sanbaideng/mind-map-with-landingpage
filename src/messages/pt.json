@@ -1,17 +1,157 @@
 {
   "navigation": {
-    "home": "Home"
+    "home": "Início"
   },
   "common": {
-    "title": "Your Site Title",
-    "description": "Your site description",
-    "language": "Language"
+    "title": "Título do seu site",
+    "description": "Descrição do seu site",
+    "language": "Idioma"
   },
   "homepage": {
-    "heroTitle": "Welcome to Your Site",
-    "heroSubtitle": "This is a template with Next.js, i18n support, and TailwindCSS. Customize this content in src/messages/en.json",
-    "getStarted": "Get Started",
-    "learnMore": "Learn More",
-    "tryMindMap": "Experimentar Mapa Mental"
+    "heroTitle": "Mapa Mental Online: Crie, Colabore e Visualize Ideias Instantaneamente",
+    "heroSubtitle": "Ferramenta gratuita de mapas mentais online com colaboração em tempo real, mapas ilimitados e opções de exportação poderosas. Não é necessário cadastro para começar.",
+    "getStarted": "Começar",
+    "learnMore": "Saiba mais",
+    "tryMindMap": "Iniciar Mapa Mental Gratuito",
+    "trustedBy": "Confiado por educadores, equipes e criadores em todo o mundo",
+    
+    "painPoints": {
+      "title": "Por que o brainstorming tradicional falha",
+      "subtitle": "Desafios comuns ao organizar ideias e colaborar com equipes",
+      "slow": {
+        "title": "Captura lenta de ideias",
+        "description": "Notas em papel se perdem, documentos de texto ficam bagunçados e ideias escapam antes que você possa organizá-las."
+      },
+      "noCollaboration": {
+        "title": "Colaboração de equipe difícil",
+        "description": "Envio de arquivos por email de um lado para o outro, conflitos de versão e nenhuma maneira de ver quem mudou o quê em tempo real."
+      },
+      "limitedExport": {
+        "title": "Opções limitadas de compartilhamento",
+        "description": "Não consegue apresentar facilmente suas ideias ou exportar para formatos que sua equipe precisa como PDF, PowerPoint ou imagens."
+      },
+      "complexity": {
+        "title": "Ferramentas complexas",
+        "description": "Software empresarial requer treinamento, licenças caras e configuração de TI antes que sua equipe possa começar a mapear."
+      }
+    },
+    
+    "features": {
+      "title": "Recursos poderosos que resolvem problemas reais",
+      "subtitle": "Tudo que você precisa para mapeamento mental eficaz, desenvolvido para velocidade e colaboração",
+      "instantStart": {
+        "title": "Início instantâneo - Sem cadastro",
+        "description": "Comece a criar mapas mentais imediatamente. Sem barreiras de cadastro, sem cartão de crédito necessário. Salve seu trabalho localmente ou crie uma conta depois."
+      },
+      "realTimeCollab": {
+        "title": "Colaboração em tempo real",
+        "description": "Trabalhe junto com sua equipe simultaneamente. Veja cursores, mudanças e atualizações instantaneamente. Perfeito para equipes remotas e salas de aula."
+      },
+      "unlimitedMaps": {
+        "title": "Mapas e nós ilimitados",
+        "description": "Crie quantos mapas mentais precisar com ramos, imagens, anexos e opções de formatação ilimitados. Sem limites artificiais."
+      },
+      "richFormatting": {
+        "title": "Texto rico e mídia",
+        "description": "Adicione imagens, ícones, notas, links e fórmulas. Estilize nós com cores, formas e temas personalizados para combinar com sua marca."
+      },
+      "powerfulExport": {
+        "title": "Exporte para qualquer lugar",
+        "description": "Exporte para PDF, PNG, SVG, PowerPoint, XMind, Markdown ou JSON. Apresente diretamente ou compartilhe em qualquer formato que sua equipe precisa."
+      },
+      "templates": {
+        "title": "Modelos prontos para uso",
+        "description": "Comece mais rápido com modelos para planejamento de projetos, educação, brainstorming, fluxos UX e mais. Customize para atender suas necessidades."
+      },
+      "keyboardShortcuts": {
+        "title": "Atalhos de teclado",
+        "description": "Usuários avançados adoram nossos atalhos de teclado abrangentes. Crie, navegue e edite na velocidade do pensamento."
+      },
+      "cloudSync": {
+        "title": "Armazenamento em nuvem e sincronização",
+        "description": "Acesse seus mapas mentais de qualquer dispositivo. Salvamento automático garante que você nunca perca trabalho. Funciona offline com sincronização quando você volta online."
+      }
+    },
+    
+    "useCases": {
+      "title": "Perfeito para cada caso de uso",
+      "subtitle": "Da educação à empresa, veja como equipes usam mapas mentais para pensar melhor",
+      "education": {
+        "title": "Educação e aprendizado",
+        "description": "Professores criam planos de aula e estudantes organizam notas de estudo. Perfeito para brainstorming, resumir palestras e preparação para exames.",
+        "examples": "Planejamento de aulas, Notas de estudo, Mapeamento conceitual, Organização de pesquisa"
+      },
+      "projectManagement": {
+        "title": "Planejamento de projetos",
+        "description": "Divida projetos complexos em tarefas, visualize roadmaps e acompanhe marcos. Ideal para planejamento ágil e organização de sprints.",
+        "examples": "Roadmaps, Planejamento de sprints, Divisão de tarefas, Alocação de recursos"
+      },
+      "business": {
+        "title": "Estratégia empresarial",
+        "description": "Mapeie modelos de negócio, planeje campanhas de marketing e documente processos. Visualize estratégias e comunique visão aos stakeholders.",
+        "examples": "Canvas de modelo de negócio, Planos de marketing, Análise SWOT, Mapeamento de processos"
+      },
+      "creative": {
+        "title": "Trabalho criativo",
+        "description": "Escritores esboçam histórias, designers mapeiam fluxos de usuário e criadores de conteúdo planejam calendários editoriais. Organize o caos criativo visualmente.",
+        "examples": "Esboços de histórias, Fluxos de usuário, Calendários de conteúdo, Storyboarding"
+      }
+    },
+    
+    "comparison": {
+      "title": "Por que escolher nossa ferramenta de mapas mentais?",
+      "subtitle": "Compare-nos com outras ferramentas populares de mapeamento mental",
+      "free": "Gratuito para sempre",
+      "noSignup": "Sem cadastro necessário",
+      "unlimited": "Mapas ilimitados",
+      "realTime": "Colaboração em tempo real",
+      "export": "Múltiplos formatos de exportação",
+      "templates": "Modelos gratuitos",
+      "offline": "Suporte offline",
+      "openSource": "Código aberto"
+    },
+    
+    "faq": {
+      "title": "Perguntas frequentes",
+      "q1": {
+        "question": "O que é mapeamento mental?",
+        "answer": "Mapeamento mental é uma técnica de pensamento visual que ajuda a organizar informações, fazer brainstorming de ideias e ver conexões entre conceitos. Usa um tópico central com ramos para ideias relacionadas, tornando mais fácil entender assuntos complexos e lembrar informações."
+      },
+      "q2": {
+        "question": "Esta ferramenta de mapas mentais é realmente gratuita?",
+        "answer": "Sim! Nossos recursos principais de mapeamento mental são completamente gratuitos sem limites de tempo. Você pode criar mapas mentais ilimitados, colaborar em tempo real e exportar para múltiplos formatos sem pagar nada. Acreditamos que todos deveriam ter acesso a ferramentas de pensamento poderosas."
+      },
+      "q3": {
+        "question": "Preciso criar uma conta?",
+        "answer": "Nenhuma conta é necessária para começar a criar mapas mentais. Seus mapas são salvos localmente no seu navegador. Se quiser acessar seus mapas em múltiplos dispositivos ou colaborar com outros, pode opcionalmente criar uma conta gratuita."
+      },
+      "q4": {
+        "question": "Posso colaborar com minha equipe em tempo real?",
+        "answer": "Absolutamente! Compartilhe um link com sua equipe e todos podem editar o mapa mental simultaneamente. Você verá cursores e mudanças dos outros em tempo real, assim como no Google Docs. Perfeito para sessões de brainstorming e colaboração remota."
+      },
+      "q5": {
+        "question": "Quais formatos de exportação são suportados?",
+        "answer": "Você pode exportar seus mapas mentais para formatos PDF, PNG, SVG, PowerPoint (PPTX), XMind, Markdown e JSON. Isso torna fácil compartilhar seu trabalho, criar apresentações ou importar para outras ferramentas."
+      },
+      "q6": {
+        "question": "Meus dados estão seguros?",
+        "answer": "Sim. Seus mapas mentais são armazenados com segurança e são acessíveis apenas para você e pessoas com quem você compartilha explicitamente. Usamos criptografia padrão da indústria e nunca vendemos seus dados. Você também pode exportar seus mapas e deletar sua conta a qualquer momento."
+      },
+      "q7": {
+        "question": "Posso usar offline?",
+        "answer": "Sim! Uma vez carregado, a ferramenta de mapas mentais funciona offline. Suas mudanças são salvas localmente e sincronizarão automaticamente quando você voltar online. Perfeito para trabalhar em voos ou áreas com conectividade ruim."
+      },
+      "q8": {
+        "question": "Quais dispositivos são suportados?",
+        "answer": "Nossa ferramenta de mapas mentais funciona em todos os navegadores modernos (Chrome, Firefox, Safari, Edge) em desktop, laptop, tablet e dispositivos móveis. A interface se adapta ao tamanho da sua tela para a melhor experiência."
+      }
+    },
+    
+    "cta": {
+      "title": "Comece a mapear suas ideias hoje",
+      "subtitle": "Junte-se a milhares de usuários que organizam seus pensamentos visualmente",
+      "button": "Criar seu primeiro mapa mental",
+      "noCard": "Cartão de crédito não necessário"
+    }
   }
 }

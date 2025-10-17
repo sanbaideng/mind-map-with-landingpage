@@ -1,5 +1,5 @@
-# Redirect default locale
+# Redirect root to English by default
 /  /en  302
 
-# Handle all other routes
-/*  /404.html  404
+# Redirect /mind-map to /en/mind-map
+/mind-map  /en/mind-map  302

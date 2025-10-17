@@ -1,17 +1,157 @@
 {
   "navigation": {
-    "home": "Home"
+    "home": "Accueil"
   },
   "common": {
-    "title": "Your Site Title",
-    "description": "Your site description",
-    "language": "Language"
+    "title": "Titre de votre site",
+    "description": "Description de votre site",
+    "language": "Langue"
   },
   "homepage": {
-    "heroTitle": "Welcome to Your Site",
-    "heroSubtitle": "This is a template with Next.js, i18n support, and TailwindCSS. Customize this content in src/messages/en.json",
-    "getStarted": "Get Started",
-    "learnMore": "Learn More",
-    "tryMindMap": "Essayer Carte Mentale"
+    "heroTitle": "Carte Mentale en Ligne : Créez, Collaborez et Visualisez les Idées Instantanément",
+    "heroSubtitle": "Outil gratuit de cartes mentales en ligne avec collaboration en temps réel, cartes illimitées et options d'exportation puissantes. Aucune inscription requise pour commencer.",
+    "getStarted": "Commencer",
+    "learnMore": "En savoir plus",
+    "tryMindMap": "Commencer Carte Mentale Gratuite",
+    "trustedBy": "Fait confiance par les éducateurs, équipes et créateurs du monde entier",
+    
+    "painPoints": {
+      "title": "Pourquoi le brainstorming traditionnel fait défaut",
+      "subtitle": "Défis communs lors de l'organisation d'idées et de la collaboration avec les équipes",
+      "slow": {
+        "title": "Capture d'idées lente",
+        "description": "Les notes papier se perdent, les documents texte deviennent désordonnés et les idées s'échappent avant que vous puissiez les organiser."
+      },
+      "noCollaboration": {
+        "title": "Collaboration d'équipe difficile",
+        "description": "Envoyer des fichiers par email d'avant en arrière, conflits de versions et aucun moyen de voir qui a changé quoi en temps réel."
+      },
+      "limitedExport": {
+        "title": "Options de partage limitées",
+        "description": "Impossible de présenter facilement vos idées ou d'exporter vers les formats dont votre équipe a besoin comme PDF, PowerPoint ou images."
+      },
+      "complexity": {
+        "title": "Outils complexes",
+        "description": "Les logiciels d'entreprise nécessitent une formation, des licences coûteuses et une configuration IT avant que votre équipe puisse commencer à cartographier."
+      }
+    },
+    
+    "features": {
+      "title": "Fonctionnalités puissantes qui résolvent de vrais problèmes",
+      "subtitle": "Tout ce dont vous avez besoin pour une cartographie mentale efficace, conçu pour la vitesse et la collaboration",
+      "instantStart": {
+        "title": "Démarrage instantané - Aucune inscription",
+        "description": "Commencez à créer des cartes mentales immédiatement. Aucune barrière d'inscription, aucune carte de crédit requise. Sauvegardez votre travail localement ou créez un compte plus tard."
+      },
+      "realTimeCollab": {
+        "title": "Collaboration en temps réel",
+        "description": "Travaillez ensemble avec votre équipe simultanément. Voyez les curseurs, changements et mises à jour instantanément. Parfait pour les équipes distantes et les salles de classe."
+      },
+      "unlimitedMaps": {
+        "title": "Cartes et nœuds illimités",
+        "description": "Créez autant de cartes mentales que nécessaire avec des branches, images, pièces jointes et options de formatage illimitées. Aucune limite artificielle."
+      },
+      "richFormatting": {
+        "title": "Texte riche et médias",
+        "description": "Ajoutez des images, icônes, notes, liens et formules. Stylisez les nœuds avec des couleurs, formes et thèmes personnalisés pour correspondre à votre marque."
+      },
+      "powerfulExport": {
+        "title": "Exportez partout",
+        "description": "Exportez vers PDF, PNG, SVG, PowerPoint, XMind, Markdown ou JSON. Présentez directement ou partagez dans n'importe quel format dont votre équipe a besoin."
+      },
+      "templates": {
+        "title": "Modèles prêts à l'emploi",
+        "description": "Commencez plus rapidement avec des modèles pour la planification de projets, l'éducation, le brainstorming, les flux UX et plus. Personnalisez selon vos besoins."
+      },
+      "keyboardShortcuts": {
+        "title": "Raccourcis clavier",
+        "description": "Les utilisateurs avancés adorent nos raccourcis clavier complets. Créez, naviguez et éditez à la vitesse de la pensée."
+      },
+      "cloudSync": {
+        "title": "Stockage cloud et synchronisation",
+        "description": "Accédez à vos cartes mentales depuis n'importe quel appareil. La sauvegarde automatique garantit que vous ne perdez jamais de travail. Fonctionne hors ligne avec synchronisation quand vous êtes de retour en ligne."
+      }
+    },
+    
+    "useCases": {
+      "title": "Parfait pour chaque cas d'usage",
+      "subtitle": "De l'éducation à l'entreprise, voyez comment les équipes utilisent les cartes mentales pour mieux penser",
+      "education": {
+        "title": "Éducation et apprentissage",
+        "description": "Les enseignants créent des plans de cours et les étudiants organisent des notes d'étude. Parfait pour le brainstorming, résumer les conférences et la préparation aux examens.",
+        "examples": "Planification de cours, Notes d'étude, Cartes conceptuelles, Organisation de recherche"
+      },
+      "projectManagement": {
+        "title": "Planification de projet",
+        "description": "Décomposez des projets complexes en tâches, visualisez les feuilles de route et suivez les jalons. Idéal pour la planification agile et l'organisation de sprints.",
+        "examples": "Feuilles de route, Planification de sprints, Décomposition des tâches, Allocation des ressources"
+      },
+      "business": {
+        "title": "Stratégie d'entreprise",
+        "description": "Cartographiez les modèles d'affaires, planifiez les campagnes marketing et documentez les processus. Visualisez les stratégies et communiquez la vision aux parties prenantes.",
+        "examples": "Canvas de modèle d'affaires, Plans marketing, Analyse SWOT, Cartographie de processus"
+      },
+      "creative": {
+        "title": "Travail créatif",
+        "description": "Les écrivains esquissent des histoires, les designers cartographient les flux utilisateurs et les créateurs de contenu planifient des calendriers éditoriaux. Organisez le chaos créatif visuellement.",
+        "examples": "Esquisses d'histoires, Flux utilisateurs, Calendriers de contenu, Storyboarding"
+      }
+    },
+    
+    "comparison": {
+      "title": "Pourquoi choisir notre outil de cartes mentales ?",
+      "subtitle": "Comparez-nous avec d'autres outils populaires de cartes mentales",
+      "free": "Gratuit pour toujours",
+      "noSignup": "Aucune inscription requise",
+      "unlimited": "Cartes illimitées",
+      "realTime": "Collaboration en temps réel",
+      "export": "Multiples formats d'exportation",
+      "templates": "Modèles gratuits",
+      "offline": "Support hors ligne",
+      "openSource": "Open Source"
+    },
+    
+    "faq": {
+      "title": "Questions fréquemment posées",
+      "q1": {
+        "question": "Qu'est-ce qu'une carte mentale ?",
+        "answer": "Une carte mentale est une technique de pensée visuelle qui aide à organiser l'information, faire du brainstorming d'idées et voir les connexions entre les concepts. Elle utilise un sujet central avec des branches pour les idées liées, rendant plus facile la compréhension de sujets complexes et la mémorisation d'informations."
+      },
+      "q2": {
+        "question": "Cet outil de cartes mentales est-il vraiment gratuit ?",
+        "answer": "Oui ! Nos fonctionnalités principales de cartes mentales sont entièrement gratuites sans limites de temps. Vous pouvez créer des cartes mentales illimitées, collaborer en temps réel et exporter vers plusieurs formats sans rien payer. Nous croyons que chacun devrait avoir accès à des outils de pensée puissants."
+      },
+      "q3": {
+        "question": "Dois-je créer un compte ?",
+        "answer": "Aucun compte n'est requis pour commencer à créer des cartes mentales. Vos cartes sont sauvegardées localement dans votre navigateur. Si vous voulez accéder à vos cartes sur plusieurs appareils ou collaborer avec d'autres, vous pouvez optionnellement créer un compte gratuit."
+      },
+      "q4": {
+        "question": "Puis-je collaborer avec mon équipe en temps réel ?",
+        "answer": "Absolument ! Partagez un lien avec votre équipe et chacun peut éditer la carte mentale simultanément. Vous verrez les curseurs et changements des autres en temps réel, comme Google Docs. Parfait pour les sessions de brainstorming et la collaboration à distance."
+      },
+      "q5": {
+        "question": "Quels formats d'exportation sont supportés ?",
+        "answer": "Vous pouvez exporter vos cartes mentales vers les formats PDF, PNG, SVG, PowerPoint (PPTX), XMind, Markdown et JSON. Cela rend facile le partage de votre travail, créer des présentations ou importer dans d'autres outils."
+      },
+      "q6": {
+        "question": "Mes données sont-elles sécurisées ?",
+        "answer": "Oui. Vos cartes mentales sont stockées de manière sécurisée et ne sont accessibles qu'à vous et aux personnes avec lesquelles vous partagez explicitement. Nous utilisons un chiffrement standard de l'industrie et ne vendons jamais vos données. Vous pouvez aussi exporter vos cartes et supprimer votre compte à tout moment."
+      },
+      "q7": {
+        "question": "Puis-je l'utiliser hors ligne ?",
+        "answer": "Oui ! Une fois chargé, l'outil de cartes mentales fonctionne hors ligne. Vos changements sont sauvegardés localement et se synchroniseront automatiquement quand vous serez de retour en ligne. Parfait pour travailler en avion ou dans des zones avec une mauvaise connectivité."
+      },
+      "q8": {
+        "question": "Quels appareils sont supportés ?",
+        "answer": "Notre outil de cartes mentales fonctionne sur tous les navigateurs modernes (Chrome, Firefox, Safari, Edge) sur ordinateurs de bureau, portables, tablettes et appareils mobiles. L'interface s'adapte à la taille de votre écran pour la meilleure expérience."
+      }
+    },
+    
+    "cta": {
+      "title": "Commencez à cartographier vos idées aujourd'hui",
+      "subtitle": "Rejoignez des milliers d'utilisateurs qui organisent leurs pensées visuellement",
+      "button": "Créer votre première carte mentale",
+      "noCard": "Aucune carte de crédit requise"
+    }
   }
 }
