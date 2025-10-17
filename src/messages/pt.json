@@ -11,6 +11,7 @@
     "heroTitle": "Welcome to Your Site",
     "heroSubtitle": "This is a template with Next.js, i18n support, and TailwindCSS. Customize this content in src/messages/en.json",
     "getStarted": "Get Started",
-    "learnMore": "Learn More"
+    "learnMore": "Learn More",
+    "tryMindMap": "Experimentar Mapa Mental"
   }
 }

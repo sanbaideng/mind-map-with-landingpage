@@ -83,4 +83,32 @@
         // 可以通过window.$bus.$on()来监听应用的一些事件
         // 实例化页面
         window.initApp()
-      }</script><script src="/mind-map/js/chunk-vendors.js?227f61428db154a5d9bc"></script><script src="/mind-map/js/app.js?227f61428db154a5d9bc"></script></body></html>
+      }
+      
+      // 监听来自父窗口的语言切换消息
+      window.addEventListener('message', (event) => {
+        if (event.data.type === 'setLanguage' && event.data.lang) {
+          try {
+            if (window.$i18n) {
+              window.$i18n.locale = event.data.lang
+              localStorage.setItem('SIMPLE_MIND_MAP_LANG', event.data.lang)
+              if (window.$bus) {
+                window.$bus.$emit('lang_change')
+              }
+            }
+          } catch (error) {
+            console.error('Failed to update language:', error)
+          }
+        }
+      })
+      
+      // 隐藏语言选择器
+      window.addEventListener('DOMContentLoaded', () => {
+        const style = document.createElement('style')
+        style.textContent = `
+          .navigatorContainer .item:first-child {
+            display: none !important;
+          }
+        `
+        document.head.appendChild(style)
+      })</script><script src="/mind-map/js/chunk-vendors.js?227f61428db154a5d9bc"></script><script src="/mind-map/js/app.js?227f61428db154a5d9bc"></script></body></html>

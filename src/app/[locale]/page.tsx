@@ -3,8 +3,6 @@ import { Hero } from '@/components/Hero'
 import { unstable_setRequestLocale } from 'next-intl/server'
 import { Metadata } from 'next'
 
-export const runtime = 'edge';
-
 export async function generateMetadata({
   params: { locale }
 }: {

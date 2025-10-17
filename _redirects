@@ -1,0 +1,5 @@
+# Redirect default locale
+/  /en  302
+
+# Handle all other routes
+/*  /404.html  404

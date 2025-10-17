@@ -1,38 +1,45 @@
-import { unstable_setRequestLocale } from 'next-intl/server'
-import { Metadata } from 'next'
+'use client'
 
-export const runtime = 'edge';
+import { useLocale } from 'next-intl'
+import { useEffect, useRef } from 'react'
 
-export async function generateMetadata({
-  params: { locale }
-}: {
-  params: { locale: string }
-}): Promise<Metadata> {
-  const isZh = locale === 'zh'
-  
-  return {
-    title: isZh 
-      ? '思绪思维导图 - Simple Mind Map' 
-      : 'Simple Mind Map',
-    description: isZh
-      ? '一个功能强大的在线思维导图工具，支持多种布局和丰富的导出格式'
-      : 'A powerful online mind mapping tool with multiple layouts and rich export formats',
-    keywords: isZh
-      ? '思维导图, mind map, 在线工具, 可视化'
-      : 'mind map, online tool, visualization',
-  }
-}
+export default function MindMapPage() {
+  const currentLocale = useLocale()
+  const iframeRef = useRef<HTMLIFrameElement>(null)
 
-export default function MindMapPage({
-  params: { locale }
-}: {
-  params: { locale: string }
-}) {
-  unstable_setRequestLocale(locale);
+  useEffect(() => {
+    const handleLoad = () => {
+      if (iframeRef.current?.contentWindow) {
+        const langMap: Record<string, string> = {
+          'en': 'en',
+          'zh': 'zh',
+          'zh-TW': 'zh_tw'
+        }
+        
+        const mindMapLang = langMap[currentLocale] || 'en'
+        
+        try {
+          iframeRef.current.contentWindow.postMessage({
+            type: 'setLanguage',
+            lang: mindMapLang
+          }, '*')
+        } catch (error) {
+          console.error('Failed to set mind-map language:', error)
+        }
+      }
+    }
+
+    const iframe = iframeRef.current
+    if (iframe) {
+      iframe.addEventListener('load', handleLoad)
+      return () => iframe.removeEventListener('load', handleLoad)
+    }
+  }, [currentLocale])
 
   return (
     <div className="h-screen w-full">
       <iframe 
+        ref={iframeRef}
         src="/mind-map/index.html" 
         className="w-full h-full border-0"
         title="Mind Map"
